@@ -2,7 +2,7 @@ print(
     "ㅤ\nㅤ\n\n\n\nㅤ\n┈┈┏━╮╭━┓┈╭━━━━━━╮\n┈┈┃┏┗┛┓┃╭┫ⓞⓘⓝⓚ ┃\n┈┈╰┓▋▋┏╯╯╰━━━━━━╯\n┈╭━┻╮╲┗━━━━╮╭╮┈\n┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n┈╰━┳┻▅╯╲╲╲╲┃┈┈┈\n┈┈┈╰━┳┓┏┳┓┏╯┈┈┈\n┈┈┈┈┈┗┻┛┗┻┛┈┈"
 )
 print("\n\n\n\n\nHello sir!!, I'm Here To Help u to Generate Telethon String Session")
-print("\n\nDarkCobra UserBot")
+print("\n\nHunterXUserBot")
 
 print("\n\nProperly Fill APP_ID ,HASH and Number.\n")
 
@@ -14,7 +14,7 @@ with TelegramClient(StringSession(), APP_ID, API_HASH) as hehe:
 	dcsession = hehe.session.save()
 	dcobra = hehe.send_message(
 	    "me",
-	    f"`{dcsession}`\n\n**Your DarkCobra String Session Here Sir😁😎😎\nClick on above Code to Copy it\n\nFor Support Join** @Dark_Cobra_Support_Group"
+	    f"`{dcsession}`\n\n**Your HunterX String Session Here Sir😁😎😎\nClick on above Code to Copy it\n\nFor Support Join** @HunterXUserBot_Support_"
 	)
 
 print("\n\n############################\n")
