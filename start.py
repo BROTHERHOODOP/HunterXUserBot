@@ -6,7 +6,7 @@ LOGS = getLogger("Helper")
 os.system("git clone https://github.com/BROTHERHOODOP/HunterXUserBot hunterx")
 os.chdir("darkcobra")
 process = subprocess.Popen(
-        ["python3", "-m", "userbot"],
+        ["python3", "-m", "hunterx"],
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,)
 out, er = process.communicate()
