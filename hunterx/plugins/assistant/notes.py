@@ -1,9 +1,9 @@
 from telethon import events, utils
 from telethon.tl import types
 
-from userbot import bot
-from userbot.uniborgConfig import Config
-from userbot.plugins.sql_helper.snips_sql import (
+from hunterx import bot
+from hunterx.uniborgConfig import Config
+from hunterx.plugins.sql_helper.snips_sql import (
     add_snip,
     get_all_snips,
     get_snips,
