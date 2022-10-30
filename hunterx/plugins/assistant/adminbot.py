@@ -63,13 +63,13 @@ async def ban(event):
     ):
         userids.append(user.id)
     if noob not in userids:
-        await event.reply("You're not an admin!")
+        await event.reply("You're not an jay admin!")
         return
     chat = await event.get_chat()
     admin = chat.admin_rights
     creator = chat.creator
     if not admin and not creator:
-        await event.reply("I Am Not Admin 🥺.")
+        await event.reply("I Am Not hunterx Admin 🥺.")
         return
 
     user, reason = await get_user_from_event(event)
@@ -107,7 +107,7 @@ async def nothanos(event):
     ):
         userids.append(user.id)
     if noob not in userids:
-        await event.reply("You're not an admin!")
+        await event.reply("You're not an hunterX admin!")
         return
     chat = await event.get_chat()
     admin = chat.admin_rights
@@ -138,7 +138,7 @@ async def promote(event):
     ):
         userids.append(user.id)
     if noob not in userids:
-        await event.reply("You're not an admin!")
+        await event.reply("You're not an jay admin!")
         return
     """ For .promote command, promotes the replied/tagged person """
     # Get targeted chat
@@ -149,7 +149,7 @@ async def promote(event):
 
     # If not admin and not creator, also return
     if not admin and not creator:
-        await event.reply("Me Not Admin 🥺")
+        await event.reply("Me Not jay Admin 🥺")
         return
     new_rights = ChatAdminRights(
         add_admins=False,
@@ -187,7 +187,7 @@ async def demote(event):
     ):
         userids.append(user.id)
     if noob not in userids:
-        await event.reply("You're not an admin!")
+        await event.reply("You're not an hunterx admin!")
         return
     """ For .demote command, demotes the replied/tagged person """
     # Admin right check
@@ -196,7 +196,7 @@ async def demote(event):
     creator = chat.creator
 
     if not admin and not creator:
-        await event.reply("I Am Not Admin 🤭")
+        await event.reply("I Am Not hunterx Admin 🤭")
         return
 
     rank = "mememaster"  # dummy rank, lol.
