@@ -1,6 +1,6 @@
-from telethon import events
-from telethon.utils import pack_bot_file_id
-from userbot import bot
+from hunterx import events
+from hunterx.utils import pack_bot_file_id
+from hunterx import bot
 
 @tgbot.on(events.NewMessage(pattern="^/id"))
 async def _(event):
