@@ -5,8 +5,8 @@ from sys import argv
 import telethon.utils
 from telethon import TelegramClient
 
-from userbot import bot
-from userbot.utils import load_module, start_assistant
+from hunterx import bot
+from hunterx.utils import load_module, start_assistant
 from var import Var
 
 LOAD_USERBOT = os.environ.get("LOAD_USERBOT", True)
@@ -39,7 +39,7 @@ else:
 import glob
 
 if LOAD_USERBOT == True:
-    path = "userbot/plugins/*.py"
+    path = "hunterx/plugins/*.py"
     files = glob.glob(path)
     for name in files:
         with open(name) as f:
@@ -50,10 +50,10 @@ if LOAD_USERBOT == True:
             except Exception as er:
                 print(er)
 else:
-    print("Userbot is Not Loading As U Have Disabled")
+    print("hunterxuserbot is Not Loading As U Have Disabled")
 
 if LOAD_ASSISTANT == True:
-    path = "userbot/plugins/assistant/*.py"
+    path = "hunterx/plugins/assistant/*.py"
     files = glob.glob(path)
     for name in files:
         with open(name) as f:
@@ -66,7 +66,7 @@ if LOAD_ASSISTANT == True:
 else:
     print("Assitant is Not Loading As U Have Disabled")
 
-print("DARK COBRA userbot AND YOUR ASSISTANT is Active Enjoy Join @DarkCobra_Support For Updates.")
+print("hunterx userbot AND YOUR ASSISTANT is successfully deployed so give your girlfriend chut @export_gabbar and @KSHITIJ_RAJ")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
