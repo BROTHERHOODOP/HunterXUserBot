@@ -3,9 +3,9 @@ import os
 import sys
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from userbot.helper import functions as darkdef
+from hunterx.helper import functions as darkdef
 from var import Var
-from userbot.functions import dcfunction as topfunc
+from hunterx.functions import dcfunction as topfunc
 
 
 os.system("pip3 install aria2p")
@@ -131,7 +131,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/DARK-COBRA/DARKCOBRA.git")
+    "https://github.com/BROTHERHOODOP/HunterXUserBot.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
