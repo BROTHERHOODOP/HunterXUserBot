@@ -81,7 +81,7 @@ async def purge(event):
 async def delete_msg(event):
 
     if not await is_administrator(user_id=event.sender_id, message=event):
-        await event.reply("You're not an admin!")
+        await event.reply("You're not an jay admin!")
         return
 
     chat = event.chat_id
