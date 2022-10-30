@@ -1,7 +1,7 @@
 {
   "name": "HunterXUserBot",
-  "description": "The best and most awaited userbot made by hellboi_atul and modified by Jarvis userbot's owner(@Sppidy) Made with ❤ For Support Join @Dark_cobra_support ",
-  "logo": "https://telegra.ph/file/00f47c54ceda3944dc47c.jpg ",
+  "description": "The best and most awaited userbot made by @export_gabbar and modified by HunterX userbot's owner(@KSHITIJ_RAJ) Made with ❤ For Support Join @HunterXUserBot_support ",
+  "logo": "https://te.legra.ph/file/08689c9e4c9ec0d8c6cdb.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -30,7 +30,7 @@
     },
 
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @hellboi_atul.",
+      "description": "Fill your Full name or Username like @abcd.",
       "value": "",
       "required": true
     },
@@ -46,7 +46,7 @@
     },
     "ALIVE_PHOTTO": {
       "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
+      "value": "https://te.legra.ph/file/08689c9e4c9ec0d8c6cdb.jpg",
       "required": true
     },
     "DEFAULT_BIO": {
@@ -56,7 +56,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/ad8430d78a8e1adb3d8ea.jpg",
+      "value": "https://te.legra.ph/file/08689c9e4c9ec0d8c6cdb.jpg",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
@@ -119,7 +119,7 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
+      "description": "Get this value by running https://hunterx.crazycreatorr.repl.run/ ",
       "value": "",
       "required": true
     },
@@ -129,7 +129,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: hellboi-atul/hellboi-atul, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: BROTHERHOODOP/HunterXUserBot, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
