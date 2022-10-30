@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String
 
-from userbot.plugins.sql_helper import BASE, SESSION
+from hunterx.plugins.sql_helper import BASE, SESSION
 
 
 class ECHOSQL(BASE):
