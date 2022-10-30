@@ -1,5 +1,5 @@
 # By @TeleBotHelp
-# This plugin is by @xaditya
+# This plugin is by @export_gabbar
 
 """Check if your userbot is working."""
 import os
@@ -7,9 +7,9 @@ import requests
 import time
 from PIL import Image
 from io import BytesIO
-from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd
-from userbot.__init__ import StartTime
+from hunterx import ALIVE_NAME
+from hunterx.utils import admin_cmd
+from hunterx.__init__ import StartTime
 from datetime import datetime
 
 ALV_PIC = os.environ.get("ALIVE_PIC" , None)
@@ -51,15 +51,15 @@ async def amireallyalive(alive):
     ms = (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
     if ALV_PIC:
-        tele = f"**Welcome To DARK COBRA **\n\n"
+        tele = f"**Welcome To HunterX user bot baby  **\n\n"
         tele += "**`Hey! I'm alive. All systems online and functioning normally!`**\n\n"
         tele += "` 🔸 Telethon version:` **1.15.0**\n` 🔹 Python:` **3.8.3**\n"
-        tele += "` 🔸 More info:` [DARK COBRA](https://github.com/DARK-COBRA/DARKCOBRA)\n"
-        tele += "` 🔹 Bot created by:` [@hellboi_atul](https://t.me/hellboi_atul)\n"
-        tele += f"` 🔸 DARK COBRA Uptime:` {uptime}\n"
+        tele += "` 🔸 More info:` [HunterXUserBot](https://github.com/BROTHERHOODOP/HunterXUserBot)\n"
+        tele += "` 🔹 Bot created by:` [HUNTERX](https://t.me/KSHITIJ_RAJ)\n"
+        tele += f"` 🔸 HunterXUserBot Uptime:` {uptime}\n"
         tele += "` 🔸 Database Status:` **All OK 👌!**\n"
         tele += f"` 🔹 My pro owner`: {DEFAULTUSER}\n\n"
-        tele += "    [✨ GitHub Repository ✨](https://github.com/DARK-COBRA/DARKCOBRA)"
+        tele += "    [✨ GitHub Repository ✨](https://github.com/BROTHERHOODOP/HunterXUserBot)"
 DARK COBRA
         chat = await alive.get_chat()
         await alive.delete()
@@ -76,14 +76,14 @@ DARK COBRA
         img.save(sticker, "webp")
         sticker.name = "sticker.webp"
         sticker.seek(0)
-        await borg.send_message(alive.chat_id, f"**Welcome To DARK COBRA **\n\n"
+        await borg.send_message(alive.chat_id, f"**Welcome To HunterXUserBot baby  **\n\n"
                 "**`Hey! I'm alive. All systems online and functioning normally!`**\n\n"
                 "` 🔸 Telethon version:` **1.15.0**\n` 🔹 Python:` **3.8.3**\n"
-                "` 🔸 More info:` [DARK COBRA](https://githib.com/DARK-COBRA/DARKCOBRA)\n"
-                "` 🔹 Bot created by:` [@hellboi_atul](https://t.me/hellboi_atul)\n"
+                "` 🔸 More info:` [HunterXUserBot](https://github.com/BROTHERHOODOP/HunterXUserBot)\n"
+                "` 🔹 Bot created by:` [hunterx](https://t.me/KSHITIJ_RAJ)\n"
                 f"` 🔸 TeleBot Uptime:` {uptime}\n"
                 "` 🔸 Database Status:` **All OK 👌!**\n"
                 f"` 🔹 My pro owner`: {DEFAULTUSER}\n\n"
-                "    [✨ GitHub Repository ✨](https://github.com/DARK-COBRA/DARKCOBRA)", link_preview = False)
+                "    [✨ GitHub Repository ✨](https://github.com/BROTHERHOODOP/HunterXUserBot)", link_preview = False)
         await borg.send_file(alive.chat_id, file=sticker) 
         await alive.delete()
