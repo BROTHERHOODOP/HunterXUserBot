@@ -18,8 +18,8 @@ from telethon import events
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from userbot import bot
-from userbot.utils import bot
+from hunterx import bot
+from hunterx.utils import bot
 
 OWNER_ID = bot.uid
 # Check if user has admin rights
@@ -40,7 +40,7 @@ async def purge(event):
     msgs = []
 
     if not await is_administrator(user_id=event.sender_id, message=event):
-        await event.reply("You're not an admin!")
+        await event.reply("You're not an jay admin!")
         return
 
     msg = await event.get_reply_message()
