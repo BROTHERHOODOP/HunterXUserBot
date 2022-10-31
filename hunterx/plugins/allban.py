@@ -1,11 +1,11 @@
-#originally created by @danish_00
+#originally created by GJ516
 
-#team cobra
+#team HUNTER
 from asyncio import sleep
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
 from telethon.tl.functions.channels import EditBannedRequest
-from userbot.utils import admin_cmd
-from userbot import bot
+from hunterx.utils import admin_cmd
+from hunterx import bot
 
 
 @bot.on(admin_cmd(pattern=r"allban", outgoing=True))
@@ -18,7 +18,7 @@ async def testing(event):
         await event.edit(" U Don't have sufficient permission 🧐 u noob 😑😑")
         return
     await event.edit("Doing Nothing 🙃🙂")#Kang with Credits
-# for Dark_Cobra
+# for HUNTERX 
     everyone = await event.client.get_participants(event.chat_id)
     for user in everyone:
         if user.id == chutiya.id:
