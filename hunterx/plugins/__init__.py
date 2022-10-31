@@ -1,4 +1,4 @@
-from userbot import darkdef
+from hunterx import darkdef
 from ..helper import functions as dcdef
 #USELESS
 darkmusic = darkdef.darkmusic 
