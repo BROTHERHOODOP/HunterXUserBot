@@ -82,7 +82,7 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 import asyncio
 
@@ -155,7 +155,7 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 import asyncio
 
@@ -217,7 +217,7 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 import asyncio
 
@@ -326,7 +326,7 @@ import urllib , os
 from telethon.tl import functions
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import asyncio
 from time import sleep
 
@@ -369,7 +369,7 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 import asyncio
 
@@ -434,7 +434,7 @@ from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
 from pySmartDL import SmartDL
 from telethon.tl import functions
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import asyncio
 import shutil 
 import random, re
@@ -501,7 +501,7 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 import asyncio
 
@@ -576,7 +576,7 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 import asyncio
 
@@ -646,7 +646,7 @@ import urllib , os
 from telethon.tl import functions
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import asyncio
 from time import sleep
 
