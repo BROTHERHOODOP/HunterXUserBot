@@ -1,5 +1,5 @@
 
-# Now will be used in DARK COBRA too....
+# Now will be used in HUNTERX too....
 
 import asyncio
 import datetime
@@ -9,7 +9,7 @@ from telethon import events
 from telethon.tl import functions, types
 
 from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 
