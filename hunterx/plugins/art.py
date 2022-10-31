@@ -1,15 +1,15 @@
 import PIL
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 # ascii characters used to build the output text
 import pygments, os, asyncio
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from userbot.utils import admin_cmd
-from userbot import bot
-from userbot import bot as borg
+from hunterx.utils import admin_cmd
+from hunterx import bot
+from hunterx import bot as borg
 @bot.on(admin_cmd(pattern="art ?(.*)", outgoing=True))
-# DONOT KANG by @THE_B_LACK_HAT & Sh1vam #Team DC
+# DONOT KANG 
 async def __(event):
     
     path = "dck"
