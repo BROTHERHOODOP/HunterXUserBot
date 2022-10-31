@@ -2,7 +2,7 @@
 import os
 from telethon import events
 from telethon.tl import functions
-from userbot.utils import admin_cmd, sudo_cmd
+from hunterx.utils import admin_cmd, sudo_cmd
 from telethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
 from telethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
@@ -13,8 +13,8 @@ from telethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
 from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from userbot import bot
-from userbot import CMD_HELP, CMD_LIST
+from hunterx import bot
+from hunterx import CMD_HELP, CMD_LIST
 
 # ====================== CONSTANT ===============================
 INVALID_MEDIA = "```The extension of the media entity is invalid.```"
