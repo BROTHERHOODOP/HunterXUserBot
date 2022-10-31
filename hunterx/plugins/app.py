@@ -7,10 +7,10 @@ from bs4 import BeautifulSoup
 from telegraph import Telegraph
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot import Var
+from hunterx import Var
 
-from userbot import CMD_HELP ,ALIVE_NAME
-from userbot.utils import admin_cmd, edit_or_reply , sudo_cmd
+from hunterx import CMD_HELP ,ALIVE_NAME
+from hunterx.utils import admin_cmd, edit_or_reply , sudo_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "cat"
 
@@ -37,7 +37,7 @@ async def apk(event):
         app_details += "\n\n<code>Developer :</code> <a href='"+app_dev_link+"'>"+app_dev+"</a>"
         app_details += "\n<code>Rating :</code> "+app_rating.replace("Rated ", "⭐ ").replace(" out of ", "/").replace(" stars", "", 1).replace(" stars", "⭐ ").replace("five", "5")
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
-        app_details += f"\n\n===> @Dark_cobra_support <==="
+        app_details += f"\n\n===> @HunterXUserBot_support <==="
         await event.edit(app_details, link_preview = True, parse_mode = 'HTML')
     except IndexError:
         await event.edit("No result found in search. Please enter **Valid app name**")
