@@ -1,8 +1,8 @@
 from telethon import events
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import random, re, asyncio
-from userbot import ALIVE_NAME, CMD_HELP
-from userbot import CMD_HELP
+from hunterx import ALIVE_NAME, CMD_HELP
+from hunterx import CMD_HELP
 from collections import deque
 import importlib.util
 from platform import uname
