@@ -3,8 +3,8 @@ import requests
 import re
 import json
 import asyncio
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from hunterx import CMD_HELP
+from hunterx.utils import admin_cmd
 
 async def callAPI(search_str):
     query = '''
