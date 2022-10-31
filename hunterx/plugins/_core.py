@@ -3,14 +3,14 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-from userbot import ALIVE_NAME
-from userbot import bot 
-from userbot.utils import admin_cmd, load_module, remove_plugin, sudo_cmd
-from userbot.utils import edit_or_reply as eor
+from hunterx import ALIVE_NAME
+from hunterx import bot 
+from hunterx.utils import admin_cmd, load_module, remove_plugin, sudo_cmd
+from hunterx.utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 3
 thumb_image_path = "./Resources/IMG_20201005_150245_168.jpg"
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DarkCobra"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "HUNTERXUSERBOT"
 
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
@@ -22,7 +22,7 @@ async def send(event):
     message_id = event.message.id
     thumb = thumb_image_path
     input_str = event.pattern_match.group(1)
-    the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
+    the_plugin_file = "./hunterx/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         start = datetime.now()
         pro = await event.client.send_file(
@@ -55,7 +55,7 @@ async def install(event):
             downloaded_file_name = (
                 await event.client.download_media(  # pylint:disable=E0602
                     await event.get_reply_message(),
-                    "userbot/plugins/",  # pylint:disable=E0602
+                    "hunterx/plugins/",  # pylint:disable=E0602
                 )
             )
             if "(" not in downloaded_file_name:
@@ -64,7 +64,7 @@ async def install(event):
                 load_module(shortname.replace(".py", ""))
                 await eor(
                     event,
-                    "Plugin successfully installed\n `{}`".format(
+                    "Plugin successfully installed by GJ516  \n `{}`".format(
                         os.path.basename(downloaded_file_name)
                     ),
                 )
@@ -89,10 +89,10 @@ async def unload(event):
     shortname = event.pattern_match["shortname"]
     try:
         remove_plugin(shortname)
-        qwe = await eor(event, f"DarkCobra Has Successfully unloaded {shortname}")
+        qwe = await eor(event, f"hunterx user bot Has Successfully unloaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            "Darkcobra has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
+            "Hunterx user bot has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
         )
 
 
@@ -111,5 +111,5 @@ async def load(event):
         qwe = await eor(event, f"Successfully loaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            f"DarkCobra could not load {shortname} because of the following error.\n{str(e)}"
+            f"hunterx user bot could not load {shortname} because of the following error.\n{str(e)}"
         )
