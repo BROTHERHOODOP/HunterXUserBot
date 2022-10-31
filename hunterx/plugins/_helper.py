@@ -1,6 +1,6 @@
-from userbot import CMD_LIST
-from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd, sudo_cmd
+from hunterx import CMD_LIST
+from hunterx import ALIVE_NAME
+from hunterx.utils import admin_cmd, sudo_cmd
 from platform import uname
 import sys
 from telethon import events, functions, __version__
@@ -30,7 +30,7 @@ async def cmd_list(event):
                         out_file,
                         force_document=True,
                         allow_cache=False,
-                        caption="**COMMANDS** In DARK COBRA",
+                        caption="**COMMANDS** In HUNTER X",
                         reply_to=reply_to_id
                     )
                     await event.delete()
@@ -74,7 +74,7 @@ async def _(event):
     result = await borg(functions.help.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
     logger.info(result)  # pylint:disable=E0602
-    await event.edit("Telethon UserBot powered byDark_cobra")
+    await event.edit("Telethon UserBot powered by HunterX")
 
 
 @borg.on(admin_cmd(pattern="syntax (.*)"))
