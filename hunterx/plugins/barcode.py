@@ -1,6 +1,6 @@
 """BarCode Generator
 Command .barcode (your text)
-By @snappy101
+By @HunterXUserBot
 """
 
 import asyncio
@@ -10,7 +10,7 @@ import time
 from barcode.writer import ImageWriter
 from datetime import datetime
 from uniborg.util import admin_cmd
-from userbot import CMD_HELP
+from hunterx import CMD_HELP
 
 
 @borg.on(admin_cmd(pattern="barcode ?(.*)"))
