@@ -7,9 +7,9 @@ from telethon.tl import functions
 from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
-from userbot import CMD_HELP, CMD_LIST
+from hunterx import CMD_HELP, CMD_LIST
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 import asyncio
 
@@ -130,7 +130,7 @@ async def avengerspp():
 
 async def main(event):
 
-    await event.edit("**Starting Avengers Profile Pic...\n\nDone !!! Check Your DP By @Dark_cobra_support**")
+    await event.edit("**Starting Avengers Profile Pic...\n\nDone !!! Check Your DP By @HunterXUserBot_support**")
 
     while True:
 
@@ -350,7 +350,7 @@ async def ppp():
     
 @borg.on(admin_cmd(pattern="predatordp ?(.*)"))
 async def main(event):
-    await event.edit("**Starting predator Profile Pic.**") #Owner @NihiNivi
+    await event.edit("**Starting predator Profile Pic.**") #Owner jay
     while True:
         await ppp()
         file = await event.client.upload_file("donottouch.jpg")  
@@ -626,7 +626,7 @@ async def animepp():
 
 async def main(event):
 
-    await event.edit("**Starting Anime Profile Pic...\n\nDone !!! Check Your DP..by DARK COBRA😎🤟🏻**")
+    await event.edit("**Starting Anime Profile Pic...\n\nDone !!! Check Your DP..by HUNTERX USER BOT 😎🤟🏻**")
 
     while True:
 
@@ -672,7 +672,7 @@ async def gamepp():
     urllib.request.urlretrieve(fy,"donottouch.jpg")
 @borg.on(admin_cmd(pattern="gamerpfp ?(.*)"))
 async def main(event):
-    await event.edit("**Starting Gamer Profile Pic.**") #Owner @NihiNivi
+    await event.edit("**Starting Gamer Profile Pic.**") #Owner HUNTERX
     while True:
         await gamepp()
         file = await event.client.upload_file("donottouch.jpg")  
