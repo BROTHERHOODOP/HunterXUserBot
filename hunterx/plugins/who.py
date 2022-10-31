@@ -1,6 +1,6 @@
 
 import html
-from userbot import CMD_HELP
+from hunterx import CMD_HELP
 from telethon import events
 from telethon import utils
 from telethon.tl import types
