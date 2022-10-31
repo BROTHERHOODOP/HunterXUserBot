@@ -8,8 +8,8 @@ import time
 
 from datetime import tzinfo, datetime
 
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 
 
