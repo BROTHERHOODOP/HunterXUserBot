@@ -6,8 +6,8 @@ Syntax: .wikipedia Query"""
 from telethon import events
 import requests
 import wikipedia
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 @borg.on(admin_cmd(pattern="wikipedia (.*)"))
 async def _(event):
@@ -66,6 +66,6 @@ CMD_HELP.update({
     ".wikimedia [query]\
 \nUsage: search ur query through wiki.\
 \n\n.wikipedia [query]\
-\nUsage: search ur query in wiki nd media.  "
+\nUsage: search ur query in wiki nd jay media.  "
 
 })
