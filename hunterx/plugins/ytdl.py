@@ -1,4 +1,4 @@
-# Thanks to @AvinashReddy3108 for this plugin
+# Thanks to jay for this plugin
 
 """
 Audio and video downloader using Youtube-dl
@@ -18,7 +18,7 @@ from youtube_dl.utils import (DownloadError, ContentTooShortError,
 from asyncio import sleep
 from telethon.tl.types import DocumentAttributeAudio
 from uniborg.util import admin_cmd
-from userbot import CMD_HELP
+from hunterx import CMD_HELP
 
 async def progress(current, total, event, start, type_of_ps, file_name=None):
     """Generic progress_callback for uploads and downloads."""
