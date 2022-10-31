@@ -1,4 +1,4 @@
-#By @NOOB_GUY_OP for Dark CObra
+#By @KSHITIJ_RAJ for HUNTERX USER BOT
 #If you steal this without credits You will be the geyest gey ever in the world that you will suck cat's dick.
 from telethon import events
 import asyncio
@@ -35,7 +35,7 @@ async def _(event):
               "[.](http://i.pinimg.com/originals/10/b8/fb/10b8fb15270d8db1f6ff967e7026d2de.gif)",
               "[.](http://www.lovethispic.com/uploaded_images/367867-Starry-Happy-Birthday-Gif.gif)",
           ]
-    for i in animation_ttl:#By @NOOB_GUY_OP for Dark CObra
+    for i in animation_ttl:#By @KSHITIJ_RAJ for HUNTERX USER BOT 
         	
             await asyncio.sleep(animation_interval)
             await event.edit(animation_chars[i %16 ], link_preview=True)#By @NOOB_GUY_OP for Dark CObra
