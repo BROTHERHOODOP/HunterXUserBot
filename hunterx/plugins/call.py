@@ -13,7 +13,7 @@ Available Commands:
 from telethon import events
 
 import asyncio
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 
@@ -41,7 +41,7 @@ async def _(event):
             "`Connecting To Telegram Headquarters...`",
             "`Call Connected.`",
             "`Telegram: Hello This is Telegram HQ. Who is this?`",
-            "`Me: Yo this is` @[DARK_COBRA_SUPPORT](t.me/Dark_cobra_support) ,`Please Connect me to my idiot bro,Ayush Durov`",
+            "`Me: Yo this is` @[HunterXUserBot](t.me/HunterXUserBot_support) ,`Please Connect me to my idiot bro,hunterx`",
             "`User Authorised.`",
             "`Calling Pavel Durov`  `At +916969696969`",
             "`Private  Call Connected...`",
