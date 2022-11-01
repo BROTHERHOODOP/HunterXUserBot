@@ -2,10 +2,10 @@
 # pata nhi sir 👀👀👀👀
 from telethon import functions, types, events
 from telethon.tl.functions.messages import DeleteHistoryRequest
-from userbot import bot as danish_00
+from hunterx import bot as danish_00
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot.utils import admin_cmd as danishehe
+from hunterx.utils import admin_cmd as danishehe
 
 @danish_00.on(danishehe(pattern="bin ?(.*)"))
 async def _(event):
