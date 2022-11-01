@@ -5,8 +5,8 @@ import traceback
 import asyncio
 import sys
 import io
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 @borg.on(admin_cmd(pattern="calc"))
 async def _(event):
@@ -41,7 +41,7 @@ async def _(event):
     elif stdout:
         evaluation = stdout
     else:
-        evaluation = "Som3thing went rong"
+        evaluation = "Something went rong"
 
     final_output = "**EQUATION**: `{}` \n\n **SOLUTION**: \n`{}` \n".format(cmd, evaluation)
     await event.edit(final_output)
