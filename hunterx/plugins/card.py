@@ -7,9 +7,9 @@
 ##############################
 from faker import Faker as dc
 from hunterx.utils import admin_cmd as hehe
-from hunterx import bot as cobra
-@cobra.on(hehe("card"))
-async def _cobra(dark):
+from hunterx import bot as hunter
+@hunter.on(hehe("card"))
+async def _hunter(dark):
     cyber = dc()
     killer = cyber.name()
     kali = cyber.address()
