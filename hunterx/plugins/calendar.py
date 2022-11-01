@@ -1,4 +1,4 @@
-"""Malayalam Calendar plugin for @UniBorg
+"""Malayalam Calendar plugin for HUNTERX
 SYNTAX: .calendar YYYY-MM-DD"""
 from telethon import events
 import asyncio
@@ -6,7 +6,7 @@ from datetime import datetime
 import requests
 import json
 from uniborg.util import admin_cmd
-from userbot import CMD_HELP
+from hunterx import CMD_HELP
 
 
 @borg.on(admin_cmd(pattern="calendar (.*)"))
