@@ -56,9 +56,9 @@ from gtts import gTTS
 
 from emoji import get_emoji_regexp
 
-from userbot import CMD_HELP, BOTLOG, BOTLOG_CHATID, YOUTUBE_API_KEY, CHROME_DRIVER, GOOGLE_CHROME_BIN
+from hunterx import CMD_HELP, BOTLOG, BOTLOG_CHATID, YOUTUBE_API_KEY, CHROME_DRIVER, GOOGLE_CHROME_BIN
 
-from userbot.utils import register
+from hunterx.utils import register
 
 CARBONLANG = "auto"
 
@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, \n Carbonised by [DARKCOBRA](https://www.github.com/hellboi-atul/hellboi-atul)>> ",
+         caption="<< Here's your carbon, \n Carbonised by [HUNTERX](https://github.com/Itz-HunterX/HunterXUserBot)>> ",
 
          force_document=True,
 
