@@ -13,8 +13,8 @@ from time import sleep
 import asyncio
 import os
 import random
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 #@borg.on(events.NewMessage(pattern=r"\.karb ", outgoing=True))
 @borg.on(admin_cmd(pattern="karb"))
@@ -102,7 +102,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="Carbonised by [Dark-Cobra](https://github.com/DARK-COBRA/DARKCOBRA)",
+         caption="Carbonised by [HUNTERX USER BOT](https://github.com/Itz-HunterX/HunterXUserBot)",
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
