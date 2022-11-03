@@ -1,6 +1,6 @@
 # hunterx Original 🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍
 # kangers Keep Credits 😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒
-# Made by Dc-Team
+# Made by fuck 
 # Don't remove these lines u fool ,,, 
 #
 #
@@ -21,7 +21,7 @@ from hunterx import CMD_LIST, CMD_HELP
 import io
 #ABEE O KANGAR  BACK OPEN CLSE BTN KANG KIYA TO YE LONE CHIPKA DENA AUR GLOBALS K BINA NAHI CHALAGA aur global 5 gaja diff name and manipulation se imported hai 
 #Making The Back Command Was The Toughest Work #by also v changed Pop up or inline help to text
-from userbot.utils import remove_plugin,load_module
+from hunterx.utils import remove_plugin,load_module
 #Making The Back Command Was The Toughest Work #by  also v changed Pop up or inline help to text
 #A stark bhai chori karna aaya ho kya friday me ek bar back btn kang kar k man nahi bhara 
 #Agar stark nahi ho to kon hai be tu jo bhi hai kang karna he aaya hai mera back , open btn so get lost
