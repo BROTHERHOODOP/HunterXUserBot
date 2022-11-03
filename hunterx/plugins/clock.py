@@ -1,10 +1,10 @@
-# (c) @UniBorg
-# Original written by @UniBorg edit by @INF1N17Y
+# (c) @LOG_HME_PAPA_BOLTE
+# Original written by @LOG_HME_PAPA_BOLTE edit by @export_gabbar
 
 from telethon import events
 import asyncio
 from collections import deque
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern=r"clock"))
