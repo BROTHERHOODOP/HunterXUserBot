@@ -14,7 +14,7 @@ async def install(event):
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
         reply_to_id = event.reply_to_msg_id
-    cmd = "ls userbot/plugins"
+    cmd = "ls hunterx/plugins"
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
@@ -32,7 +32,7 @@ async def install(event):
     )
     url2 = f"https://nekobin.com/{key}"
     raw2 = f"https://nekobin.com/raw/{key}"
-    hehe = f"**ls userbot/plugins**.\nPasted to [Nekobin]({url2}) Raw: [View Raw]({raw2}) "
+    hehe = f"**ls hunterx/plugins**.\nPasted to [Nekobin]({url2}) Raw: [View Raw]({raw2}) "
     if len(OUTPUT) > 69:
         with io.BytesIO(str.encode(OUTPUT)) as out_file:
             out_file.name = "cmd_list.text"
