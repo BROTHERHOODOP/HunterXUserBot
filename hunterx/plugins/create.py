@@ -1,12 +1,12 @@
 '''
-for bot credits to @pureindialover
+for bot credits to hunter
 '''
 
 from telethon.tl import functions, types
 
-from userbot.events import register
+from hunterx.events import register
 
-from userbot import CMD_HELP
+from hunterx import CMD_HELP
 
 
 
