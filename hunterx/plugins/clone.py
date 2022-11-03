@@ -1,8 +1,8 @@
 """Get Telegram Profile Picture and other information
 and set as own profile.
 Syntax: .clone @username"""
-#Copy That Plugin by @ViperAdnan
-#modified by @No_OnE_Kn0wS_Me 
+#Copy That Plugin by @LOG_HME_PAPA_BOLTE
+#modified by @export_gabbar, @Rishi_krd 
 #Give credit if you are going to kang it.
 
 import html
@@ -24,10 +24,10 @@ from telethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
 from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from userbot import bot, CMD_HELP , AUTONAME , DEFAULT_BIO , ALIVE_NAME
-DARKCOBRA = " "
+from hunterx import bot, CMD_HELP , AUTONAME , DEFAULT_BIO , ALIVE_NAME
+HUNTERX  = " "
 DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
-DEFAULTUSERBIO = str(DEFAULT_BIO) if DEFAULT_BIO else "Dark Cobra is best"
+DEFAULTUSERBIO = str(DEFAULT_BIO) if DEFAULT_BIO else "HUNTER X  is best"
 BOTLOG_CHATID = Config.PRIVATE_GROUP_BOT_API_ID
 BOTLOG = True
 
@@ -88,7 +88,7 @@ async def _(event):
     if event.fwd_from:
         return
     fname = f"{DEFAULTUSER}"
-    lname = f"{DARKCOBRA}"
+    lname = f"{HUNTERX}"
     bio = f"{DEFAULTUSERBIO}"
     n = 1
     await borg(functions.photos.DeletePhotosRequest(await event.client.get_profile_photos("me", limit= n)))    
