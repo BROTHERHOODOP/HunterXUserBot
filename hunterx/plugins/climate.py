@@ -3,15 +3,15 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Userbot module for getting the weather of a city. """
+""" hunterx module for getting the weather of a city. """
 
 import json
 import requests
 from datetime import datetime
 from pytz import country_timezones as c_tz, timezone as tz, country_names as c_n
 
-from userbot import OPEN_WEATHER_MAP_APPID as OWM_API, CMD_HELP
-from userbot.utils import admin_cmd, errors_handler
+from hunterx import OPEN_WEATHER_MAP_APPID as OWM_API, CMD_HELP
+from hunterx.utils import admin_cmd, errors_handler
 
 # ===== CONSTANT =====
 DEFCITY = 'Calicut'
@@ -20,7 +20,7 @@ DEFCITY = 'Calicut'
 # ====================
 async def get_tz(con):
     """ Get time zone of the given country. """
-    """ Credits: @aragon12 and @zakaryan2004. """
+    """ Credits: @LOG_HME_PAPA_BOLTE and @export_gabbar and @Rishi_krd. """
     for c_code in c_n:
         if con == c_n[c_code]:
             return tz(c_tz[c_code][0])
