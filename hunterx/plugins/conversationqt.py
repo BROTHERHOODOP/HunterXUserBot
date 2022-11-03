@@ -31,9 +31,9 @@ import sys
 import random
 
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
-from userbot import CMD_HELP
+from hunterx import CMD_HELP
 
 
 
