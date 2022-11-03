@@ -1,5 +1,5 @@
 # Thanks to Sipak bro and Aryan.. 
-# animation Idea by jay and hunter 
+# animation Idea by jay and rishi and hunter 
 # Made by  hunterx....and thanks to for the logos...
 # Kang with credits else gay...
 import asyncio
@@ -18,7 +18,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "HUNTER X"
 
-# Thanks to JAY and HUNTER X.. 
+# Thanks to JAY and RISHI and HUNTER X.. 
 # animation Idea by GJ516
 # Made by HUNTERX ....and thanks  for the logos...
 # Kang with credits else gay...
