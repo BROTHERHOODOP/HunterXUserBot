@@ -1,8 +1,9 @@
 """
 Pulls Up A Random Chant From Harry Potter Series...
 Syntax: .hp
-    orginal author : AlenPaulVarghese(@STARKTM1)
-    custom editing : @pureindialover
+    orginal author : HUNTERX (@LOG_HME_PAPA_BOLTE)
+    custom editing : EXPORT-GABBAR (@export_gabbar)
+    custom editing : SPYDER (@Rishi_krd)
 """
 from telethon import events
 import asyncio
