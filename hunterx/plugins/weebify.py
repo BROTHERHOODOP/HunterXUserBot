@@ -1,9 +1,9 @@
-# Inspired by Saitama Bot, credits - @kirito6969, @PhycoNinja13b
-# Thx to @DeletedUser420
+# Inspired by HUNTERX, credits - @export_gabbar, @Rishi_krd
+# Thx to @Rishi_krd
 
 
-from userbot.events import register
-from userbot import bot, CMD_HELP
+from hunterx.events import register
+from hunterx import bot, CMD_HELP
 from telethon import events
 
 # from uniborg.util import admin_cmd
