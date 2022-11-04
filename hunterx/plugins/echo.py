@@ -1,6 +1,6 @@
 """
-created by @mrconfused and @sandy1709
-Idea by @BlazingRobonix
+created by hunter 
+Idea by i don't no 
 
 """
 #    Copyright (C) 2020  sandeep.n(π.$)
