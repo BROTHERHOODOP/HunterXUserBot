@@ -2,14 +2,14 @@
 """
 Animate How To Google
 Command .ggl Search Query
-By @loxxi
+By @LOG_HME_PAPA_BOLTE
 """
 
 from telethon import events
 import os
 import requests
 import json
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 @borg.on(admin_cmd("ggl (.*)"))
