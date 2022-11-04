@@ -4,8 +4,8 @@ import math
 from vcam import vcam,meshGen
 import sys
 import os
-from userbot.utils import admin_cmd
-from userbot import bot 
+from hunterx.utils import admin_cmd
+from hunterx import bot 
 if not os.path.isdir("./dco/"):
     os.makedirs("./dco/")
 @bot.on(admin_cmd(pattern=r"fmirror1"))
