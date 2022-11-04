@@ -1,11 +1,11 @@
-# Plugin made by Dark cobra
-# For Dark cobra 
-# Made by Shivam Patel(Team Cobra)
+# Plugin made by EXPORT-GABBAR
+# For HUNTERX(TEAM HUNTERX)
+# Made by SPYDER
 # Kang with credits..
 import random
-from userbot import CMD_HELP
-from userbot.events import register
-from userbot.utils import admin_cmd
+from hunterx import CMD_HELP
+from hunterx.events import register
+from hunterx.utils import admin_cmd
 from telethon import events, types, functions, utils
 
 
