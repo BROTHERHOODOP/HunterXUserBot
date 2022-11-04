@@ -8,7 +8,7 @@ from telethon import events
 import os
 import requests
 import json
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 @borg.on(admin_cmd("dns (.*)"))
