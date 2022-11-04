@@ -1,9 +1,9 @@
-#Ported from Nana remix by @buddhhu
-#imported admin_cmd for DC by @hellboi_atul
+#Ported from Nana remix by @export_gabbar
+#imported admin_cmd for hunterx by @Rishi_krd
 import pygments, os, asyncio
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="pcode ?(.*)"))
 async def coder_print(event):
