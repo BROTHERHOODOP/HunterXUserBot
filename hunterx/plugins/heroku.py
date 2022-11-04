@@ -11,9 +11,9 @@ import asyncio
 import os
 import requests
 import math
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
-from userbot.uniborgConfig import Config
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
+from hunterx.uniborgConfig import Config
 
 # ================= 
 
@@ -176,7 +176,7 @@ async def _(dyno):
             dyno.chat_id,
             "logs.txt",
             reply_to=dyno.id,
-            caption="DARK COBRA logs of 100+ lines",
+            caption="HUNTERX logs of 100+ lines",
         )
         
         await asyncio.sleep(5)
