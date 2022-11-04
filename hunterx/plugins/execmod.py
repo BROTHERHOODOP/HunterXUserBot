@@ -11,7 +11,7 @@ import time
 import os
 import sys
 from telethon import events, functions, __version__
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 from asyncio.subprocess import PIPE as asyncPIPE
 from asyncio import create_subprocess_exec as asyncrunapp
 
@@ -108,7 +108,7 @@ async def _(event):
     PROCESS_RUN_TIME = 100
 #    dirname = event.pattern_match.group(1)
 #    tempdir = "localdir"
-    cmd = "ls userbot/plugins"
+    cmd = "ls hunterx/plugins"
 #    if dirname == tempdir:
 	
     eply_to_id = event.message.id
