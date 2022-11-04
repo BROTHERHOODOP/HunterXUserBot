@@ -1,9 +1,9 @@
 # For UniBorg
-# By Priyam Kalra
+# By HunterX
 # Syntax (.hl <link>)
 
 from telethon import events
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import asyncio
 from telethon.tl import functions, types
 
