@@ -1,12 +1,12 @@
-# Made by Dark Cobra; Made for Dark Cobra
+# Made by HunterX; Made for hunterx
 # Don't remove these lines else gay..
 # Kang with credits..
 
 from telethon import events
 
 import asyncio
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from hunterx import CMD_HELP
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd("hdd"))
 async def _(event):
