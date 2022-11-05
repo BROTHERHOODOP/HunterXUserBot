@@ -1,7 +1,7 @@
 # Plugin to show the fed you are banned in.
 # For TeleBot
 # Kangers keep credits
-# By @Akash_AM1 and @xditya
+# By @Rishi_krd and @export_gabbar
 
 import datetime
 import asyncio
@@ -9,9 +9,9 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import time
-from userbot import ALIVE_NAME
+from hunterx import ALIVE_NAME
 
 naam = str(ALIVE_NAME)
 
