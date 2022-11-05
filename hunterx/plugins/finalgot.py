@@ -1,4 +1,4 @@
-# BY @STARKTM1
+# BY @ecport_gabbar and @Rishi_krd
 from telethon import events
 import asyncio
 import random
