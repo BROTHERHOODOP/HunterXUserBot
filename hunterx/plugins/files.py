@@ -3,7 +3,7 @@ usage: reply with file : .rar , .7z  create archived file
 
 unzip usage: reply with zipped file .unzipper
 
-Coded by @furki
+Coded by @export_gabbar and @Rishi_krd
 
 """
 
@@ -19,13 +19,13 @@ import shutil
 import subprocess
 import time
 from pySmartDL import SmartDL
-from userbot.uniborgConfig import Config
+from hunterx.uniborgConfig import Config
 from telethon import events
-from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
+from hunterx.utils import admin_cmd, humanbytes, progress, time_formatter
 import subprocess
 import patoolib
 import tarfile
-from userbot import CMD_HELP
+from hunterx import CMD_HELP
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
 extracted = Config.TMP_DOWNLOAD_DIRECTORY + "extracted/"
