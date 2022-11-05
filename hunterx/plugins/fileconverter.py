@@ -1,18 +1,16 @@
 """plugin made for reading nd  exploting message in tg {i}reveal <reply to file>"""
-# originally made by @ItzSjDude All Rights reserved!!
-#  Added Paste System by @danish_00
-# All Credits - @ItzSjDude  #Added Paste System by @danish_00
-# @ItzSjDude
-# @ItzSjDude
-#  Added Paste System by @danish_00
+# originally made by @Rishi_krd All Rights reserved!!
+#  Added Paste System by @export_gabbar
+# All Credits - @Rishi_krd  #Added Paste System by @export_gabbar
+#  Added Paste System by @export_gabbar
 
 import os, requests, re
 import asyncio
 import time
 from datetime import datetime
 
-from userbot.utils import admin_cmd, sudo_cmd , edit_or_reply
-from userbot import CMD_HELP, bot
+from hunterx.utils import admin_cmd, sudo_cmd , edit_or_reply
+from hunterx import CMD_HELP, bot
 
 @borg.on(admin_cmd(pattern=r"open", outgoing=True))
 async def _(event):
