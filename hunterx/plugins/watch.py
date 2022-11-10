@@ -1,5 +1,5 @@
 # Uniborg Plugin for getting list of sites where you can watch a particular Movie or TV-Show
-# Author: Sumanjay (https://github.com/cyberboysumanjay) (@cyberboysumanjay)
+# Author: hunter 
 # All rights reserved.
 
 #imported from uniborg
@@ -8,7 +8,7 @@
 
 from telethon import events
 import requests
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 from justwatch import JustWatch
 
 def get_stream_data(query):
