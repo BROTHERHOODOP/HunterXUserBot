@@ -1,14 +1,14 @@
-# Plugin made by @hellboi_atul and bug fixes By Shivam Patel(Team Cobra)
+# Plugin made by and bug fixes By Shivam Patel(Team hunter )
 # Give credits... Dont remove or edit these lines
 # uses ytdl 
-# made for DARK COBRA userbot..
+# made for hunterx userbot..
 import os
 import time
 import math
 import asyncio, json
 from youtube_dl import YoutubeDL
 from pySmartDL import SmartDL
-from userbot.utils import progress
+from hunterx.utils import progress
 from youtube_dl.utils import (DownloadError, ContentTooShortError,
                               ExtractorError, GeoRestrictedError,
                               MaxDownloadsReached, PostProcessingError,
@@ -92,14 +92,14 @@ async def download_video(v_url):
     else:
     	dc = await pro.edit("`processing, please weit...😍`")   
     teamcobra = pro1[8:]
-    if not teamcobra:
+    if not teamhunterx:
          return await dc.edit("`Error \nusage vsong <song name>`")
     search = SearchVideos(teamcobra, offset = 1, mode = "json", max_results = 1)
     test = search.result()
     p = json.loads(test)
     q = p.get('search_result')
     try:
-       teamcobra = q[0]['link']
+       teamhunterx = q[0]['link']
     except:
     	return await dc.edit("`failed to find your desired song`")
     type = "audio"
@@ -134,7 +134,7 @@ async def download_video(v_url):
     try:
         await dc.edit("`Fetching data, please wait..😋😍😎`")
         with YoutubeDL(opts) as darkcobra:
-            darkcobra_data = darkcobra.extract_info(teamcobra)
+            hunterx_data = darkcobra.extract_info(teamcobra)
     except DownloadError as error:
         await dc.edit(f"`{str(error)}`")
         return
@@ -167,8 +167,8 @@ async def download_video(v_url):
     c_time = time.time()
     if song:
         await dc.edit(f"`Preparing to upload your video song😎 `\
-        \n**{darkcobra_data['title']}**\
-        \nby *{darkcobra_data['uploader']}*")
+        \n**{hunterx_data['title']}**\
+        \nby *{hunterx_data['uploader']}*")
         await v_url.client.send_file(
             v_url.chat_id,
             f"{darkcobra_data['id']}.mp3",
@@ -186,8 +186,8 @@ async def download_video(v_url):
         await v_url.delete()
     elif video:
         await dc.edit(f"`Preparing to upload your video song🤗❤ :`\
-        \n**{darkcobra_data['title']}**\
-        \nby *{darkcobra_data['uploader']}*")
+        \n**{hunterx_data['title']}**\
+        \nby *{hunterx_data['uploader']}*")
         await v_url.client.send_file(
             v_url.chat_id,
             f"{darkcobra_data['id']}.mp4",
