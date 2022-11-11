@@ -1,4 +1,4 @@
-# Plugin made by @hellboi_atul for DARK COBRA..
+# Plugin made by hunter for hunterx..
 # You can use this..but don't edit/remove these comment lines..
 # This module fetches the link from YouTube for the given query..
 # merged .uta
@@ -7,14 +7,14 @@
 
 import re
 import random
-from userbot import bot, CMD_HELP
+from hunterx import bot, CMD_HELP
 import asyncio
 import os
 import json
 from pathlib import Path
 from youtube_search import YoutubeSearch
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from userbot.utils import admin_cmd, edit_or_reply
+from hunterx.utils import admin_cmd, edit_or_reply
 
 
 IF_EMOJI = re.compile(
