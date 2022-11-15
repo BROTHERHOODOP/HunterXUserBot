@@ -1,8 +1,8 @@
 
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 
 @borg.on(admin_cmd("get_ad?(m)in ?(.*)"))
