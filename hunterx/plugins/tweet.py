@@ -7,16 +7,16 @@ from random import choice, getrandbits, randint
 import random
 import time
 from telethon import events
-from userbot import bot
+from hunterx import bot
 from collections import deque
 import sys
 import html
 import json
 from PIL import Image, ImageEnhance, ImageOps
-from userbot import CMD_HELP, bot
-from userbot.events import register
-from userbot.tweet import moditweet, johnnytweet, sunnytweet, bhautweet, jtweet, miatweet
-from userbot.utils import admin_cmd
+from huntetx import CMD_HELP, bot
+from hunterx.events import register
+from hunterx.tweet import moditweet, johnnytweet, sunnytweet, bhautweet, jtweet, miatweet
+from hunterx.utils import admin_cmd
 
 EMOJI_PATTERN = re.compile(
     "["
