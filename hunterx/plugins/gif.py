@@ -1,10 +1,10 @@
 # Kang with credits..
-# Team DC
+# Team HX
 from PIL import Image
 import sys
 import os
-from userbot.utils import admin_cmd
-from userbot import bot 
+from hunterx.utils import admin_cmd
+from hunterx import bot 
 import moviepy.editor as m
 
 if not os.path.isdir("./dcpath/"):
@@ -23,7 +23,7 @@ async def gifs(event):
 
 
 
-#made by @THE_B_LACK_HAT #team DC
+#made by @Rishi_krd #team HX
 @bot.on(admin_cmd(pattern=r"vtog"))
 async def vtog(event):
     path = "viddck"
