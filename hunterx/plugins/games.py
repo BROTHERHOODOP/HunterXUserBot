@@ -1,12 +1,12 @@
-# Plugin made by @hellboi_atul for DARK COBRA..
+# Plugin made by @Rishi_krd for HUNTERX..
 # You can use this..but don't edit/remove these comment lines..
 # This module is for playing tik tak toe game..
 # So wahi...Enjoy
 
 import re
 import random
-from userbot import bot
-from userbot.utils import admin_cmd
+from hunterx import bot
+from hunterx.utils import admin_cmd
 
 IF_EMOJI = re.compile(
     "["
