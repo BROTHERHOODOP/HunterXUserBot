@@ -1,14 +1,14 @@
 """Emoji
 Available Commands:
 .nope
-Credits to @mariodevs
+Credits to @Rishi_krd
 """
 
 from telethon import events
 
 import asyncio
 
-from userbot.utils import admin_cmd
+from hunterd.utils import admin_cmd
 
 @borg.on(admin_cmd("nope"))
 async def _(event):
