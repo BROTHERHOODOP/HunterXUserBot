@@ -11,7 +11,7 @@ Syntax:
 # https://github.com/cyberboysumanjay/Gdrivedownloader/blob/master/gdrive_upload.py
 # there might be some changes made to suit the needs for this repository
 # Licensed under MIT License
-# Fixed By @StarkxD
+# Fixed By @Rishi_krd
 
 import asyncio
 import json
@@ -20,7 +20,7 @@ import os
 import time
 from datetime import datetime
 from telethon import events
-from userbot.utils import admin_cmd, progress, humanbytes
+from hunterx.utils import admin_cmd, progress, humanbytes
 from mimetypes import guess_type
 from apiclient.discovery import build
 from apiclient.http import MediaFileUpload
