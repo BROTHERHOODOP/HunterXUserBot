@@ -8,7 +8,7 @@ from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from hunterx.utils import admin_cmd
 import time
-from userbot import ALIVE_NAME
+from hunterx import ALIVE_NAME
 
 naam = str(ALIVE_NAME)
 
