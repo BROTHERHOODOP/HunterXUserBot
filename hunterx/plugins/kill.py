@@ -49,7 +49,7 @@ async def _(event):
             "---------------->",    
             "------>;(^。^)ノ",
             "(￣ー￣) Mar gaya benjo",
-            "**Target killed successfully nacho bc(°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**"
+            "**Target killed successfully nacho ben stocks(°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**"
             ]
 
             for i in animation_ttl:
