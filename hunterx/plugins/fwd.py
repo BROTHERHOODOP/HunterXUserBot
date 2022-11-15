@@ -1,10 +1,10 @@
-"""Enable Seen Counter in any message, Fix by @pureindialover
+"""Enable Seen Counter in any message, Fix by @Rishi_krd
 to know how many users have seen your message
 Syntax: .fwd as reply to any message"""
 from telethon import events
 from telethon import sync
 from telethon.tl import types, functions
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="frwd"))
