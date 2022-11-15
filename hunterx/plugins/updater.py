@@ -1,6 +1,6 @@
-#"""Update UserBot Code (FOR DARKCOBRA USERBOT)
+#"""Update hunterx Code (FOR HUNTERX)
 #Syntax: .update
-#\nAll Credits goes to © @hellboi_atul
+#\nAll Credits goes to © @Rishi_krd
 #\nFor this awasome plugin.\nPorted from PpaperPlane Extended"""
 from telethon import events
 from os import remove, execle, path, makedirs, getenv, environ, execl
@@ -9,8 +9,8 @@ import asyncio
 import sys
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
-from userbot import CMD_HELP, bot
-from userbot.utils import admin_cmd, sudo_cmd
+from hunterx import CMD_HELP, bot
+from hunterx.utils import admin_cmd, sudo_cmd
 
 UPSTREAM_REPO_URL = "https://github.com/DARK-COBRA/DARKCOBRA"
 HEROKU_API_KEY = Var.HEROKU_API_KEY
