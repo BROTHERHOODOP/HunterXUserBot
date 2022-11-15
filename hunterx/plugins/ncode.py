@@ -1,11 +1,11 @@
-# Credits @buddhhu
+# Credits @Rishi_krd
 #This software is a part of https://github.com/buddhhu/Plus
-# Ported to DC by @hellboi_atul
+# Ported to HX by @export_gabbar
 
 import pygments, os, asyncio
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="ncode ?(.*)"))
 async def coder_print(event):
