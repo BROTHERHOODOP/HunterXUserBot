@@ -1,9 +1,9 @@
-#credits: @r4v4n4
+#credits: @Rishi_krd
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd("deepfry ?(.*)"))
 async def _(event):
