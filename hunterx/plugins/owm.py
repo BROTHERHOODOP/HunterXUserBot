@@ -3,15 +3,15 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Userbot module for getting the weather of a city. """
+""" hunterx module for getting the weather of a city. """
 
 import json
 import requests
 from datetime import datetime
 from pytz import country_timezones as c_tz, timezone as tz, country_names as c_n
 
-from userbot import OPEN_WEATHER_MAP_APPID as OWM_API, CMD_HELP
-from userbot.events import register, errors_handler
+from hunterx import OPEN_WEATHER_MAP_APPID as OWM_API, CMD_HELP
+from hunterx.events import register, errors_handler
 
 # ===== CONSTANT =====
 DEFCITY = 'Ahmedabad'
