@@ -1,7 +1,7 @@
-# Thanks to @Shivam_Patel Bro
-# Thanks to Sipak .. 
-# Idea by @Shivam_Patel 
-# Made by @Shivam_Patel & @ProgrammingError ....TEAM DC
+# Thanks to @Rishi_krd Bro
+# Thanks to Gabbar .. 
+# Idea by HUNTERX
+# Made by HUNTERX ....TEAM HX
 # Kang with credits else gay...
 # inline alive
 import asyncio
@@ -13,8 +13,8 @@ from io import BytesIO
 from datetime import datetime
 import random
 from telethon import events, Button, custom, version
-from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME, Lastupdate
+from hunterx.utils import admin_cmd
+from hunterx import ALIVE_NAME, Lastupdate
 from . import dcdef
 from userbot import bot as borg
 from telethon.tl.custom import Button
