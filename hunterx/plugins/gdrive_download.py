@@ -1,7 +1,7 @@
 """
-G-Drive File Downloader Plugin For Userbot. 
+G-Drive File Downloader Plugin For hunterx. 
 usage: .gdl File-Link
-By: @Zero_cool7870
+By: @Rishi_krd
 
 """
 import requests
