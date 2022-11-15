@@ -1,11 +1,11 @@
-#port to DARK COBRA by @hellboi-atul
+#port to HUNTERX by @Rishi_krd
 
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot import bot, CMD_HELP
-from userbot.utils import admin_cmd
+from hunterx import bot, CMD_HELP
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"qbot"))
 async def _(event):
