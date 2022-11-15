@@ -1,12 +1,12 @@
-# brought to you here(DARK COBRA) by... @hellboi_atul ..
+# brought to you here(HUNTERX) by... @Rishi_krd ..
 # Don't remove these lines else Gey...
 
 # _______________________________________________________________________________________________________________
 
 
-from userbot import bot, CMD_HELP
+from hunterx import bot, CMD_HELP
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import html
 from telethon import events
 from telethon.tl.functions.photos import GetUserPhotosRequest
@@ -56,27 +56,27 @@ async def get_user_from_id(user, event):
     return user_obj
 
 @borg.on(admin_cmd(pattern="gben ?(.*)"))
-async def gben(userbot):
-    dc = userbot
+async def gben(hunterx):
+    dc = hunterx
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
         dark = await dc.reply("Gbanning This User !")
     else:
         dark = await dc.edit("Wait Processing.....")
-    me = await userbot.client.get_me()
+    me = await hunterx.client.get_me()
     await dark.edit(f"Trying to ban you globally..weit nd watch you nub nibba")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
-    await userbot.get_chat()
+    await hunterx.get_chat()
     a = b = 0
-    if userbot.is_private:
-        user = userbot.chat
-        reason = userbot.pattern_match.group(1)
+    if hunterx.is_private:
+        user = hunterx.chat
+        reason = hunterx.pattern_match.group(1)
     else:
-        userbot.chat.title
+        hunterx.chat.title
     try:
-        user, reason = await get_full_user(userbot)
+        user, reason = await get_full_user(hunterx)
     except:
         pass
     try:
@@ -90,21 +90,21 @@ async def gben(userbot):
                 f"**You nub nibba..I can't gben my creator..**"
             )
         try:
-            from userbot.modules.sql_helper.gmute_sql import gmute
+            from huntrtx.modules.sql_helper.gmute_sql import gmute
         except:
             pass
         try:
-            await userbot.client(BlockRequest(user))
+            await huntetx.client(BlockRequest(user))
         except:
             pass
-        testuserbot = [
+        testhunterx = [
             d.entity.id
-            for d in await userbot.client.get_dialogs()
+            for d in await hunterx.client.get_dialogs()
             if (d.is_group or d.is_channel)
         ]
-        for i in testuserbot:
+        for i in testhunterx:
             try:
-                await userbot.client.edit_permissions(i, user, view_messages=False)
+                await hunterx.client.edit_permissions(i, user, view_messages=False)
                 a += 1
                 await dark.edit(f"**Globally banned 🙄🙄 Total Affected Chats **: `{a}`")
             except:
@@ -122,27 +122,27 @@ async def gben(userbot):
 
 
 @borg.on(admin_cmd(pattern="ungben ?(.*)"))
-async def gunben(userbot):
-    dc = userbot
+async def gunben(hunterx):
+    dc = hunterx
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
         dark = await dc.reply("`Wait Let Me ungban this nub nibba again😂`")
     else:
         dark = await dc.edit("Weit nd watch ! ")
-    me = await userbot.client.get_me()
+    me = await hunterx.client.get_me()
     await dark.edit(f"Trying To Ungban User !")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
-    await userbot.get_chat()
+    await hunterx.get_chat()
     a = b = 0
-    if userbot.is_private:
-        user = userbot.chat
-        reason = userbot.pattern_match.group(1)
+    if hunterx.is_private:
+        user = hunterx.chat
+        reason = hunterx.pattern_match.group(1)
     else:
-        userbot.chat.title
+        hunterx.chat.title
     try:
-        user, reason = await get_full_user(userbot)
+        user, reason = await get_full_user(hunterx)
     except:
         pass
     try:
@@ -154,21 +154,21 @@ async def gunben(userbot):
         if user.id == 1289422521:
             return await dark.edit("**You nub nibba..can't gban or ungban my creator... !**")
         try:
-            from userbot.modules.sql_helper.gmute_sql import ungmute
+            from hunterx.modules.sql_helper.gmute_sql import ungmute
         except:
             pass
         try:
-            await userbot.client(UnblockRequest(user))
+            await hunterx.client(UnblockRequest(user))
         except:
             pass
-        testuserbot = [
+        testhunterx = [
             d.entity.id
-            for d in await userbot.client.get_dialogs()
+            for d in await hunterx.client.get_dialogs()
             if (d.is_group or d.is_channel)
         ]
-        for i in testuserbot:
+        for i in testhunterx:
             try:
-                await userbot.client.edit_permissions(i, user, send_messages=True)
+                await hunterx.client.edit_permissions(i, user, send_messages=True)
                 a += 1
                 await dark.edit(f"**Ungbaning this nub nibba.. AFFECTED CHATS - {a} **")
             except:
@@ -191,7 +191,7 @@ async def gunben(userbot):
 async def handler(rkG): 
    if rkG.user_joined or rkG.user_added:      
        try:       	
-         from userbot.modules.sql_helper.gmute_sql import is_gmuted
+         from hunterx.modules.sql_helper.gmute_sql import is_gmuted
          guser = await rkG.get_user()      
          gmuted = is_gmuted(guser.id)             
        except:      
