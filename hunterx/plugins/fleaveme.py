@@ -1,4 +1,4 @@
-#Credit: @r4v4n4
+#Credit: @Rishi_krd
 """Emoji
 
 Available Commands:
