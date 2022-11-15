@@ -1,4 +1,4 @@
-"""Carbon Scraper Plugin for Userbot. //text in creative way.
+D"""Carbon Scraper Plugin for hunterx. //text in creative way.
 usage: .kar1 //as a reply to any text message
 usage: .kar2 //as a reply to any text message
 usage: .kar3 //as a reply to any text message
@@ -21,7 +21,7 @@ import os
 import random
 from datetime import datetime
 from telethon.tl import functions
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import shutil
 from PIL import Image, ImageDraw, ImageFont
 from userbot import ALIVE_NAME
