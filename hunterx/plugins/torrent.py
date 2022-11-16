@@ -1,19 +1,19 @@
 """
-A Torrent Client Plugin Based On Aria2 for Userbot
+A Torrent Client Plugin Based On Aria2 for HUNTERX
 
 cmds: Magnet link : .magnet magnetLink
 	  Torrent file from local: .tor file_path
 	  Show Downloads: .show
 	  Remove All Downloads: .ariaRM
 	  
-By:- @Zero_cool7870	   
+By:- @Rishi_krd	   
 
 """
 import aria2p
 from telethon import events
 import asyncio
 import os
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 cmd = "aria2c --enable-rpc --rpc-listen-all=false --rpc-listen-port 6800  --max-connection-per-server=10 --rpc-max-request-size=1024M --seed-time=0.01 --min-split-size=10M --follow-torrent=mem --split=10 --daemon=true --allow-overwrite=true"
