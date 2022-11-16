@@ -15,7 +15,7 @@ from telethon.tl.types import (
     InputStickerSetShortName,
     MessageMediaPhoto
 )
-from userbot.plugins.sql_helper.ghdb_sql import in_channels, add_channel, rm_channel, get_all_channels
+from hunterx.plugins.sql_helper.ghdb_sql import in_channels, add_channel, rm_channel, get_all_channels
 
 logs_id = Var.PRIVATE_GROUP_ID
 
