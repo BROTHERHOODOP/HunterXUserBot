@@ -1,9 +1,9 @@
 from telethon.tl.functions.messages import EditChatDefaultBannedRightsRequest
 from telethon.tl.types import ChatBannedRights
-from userbot import ALIVE_NAME
-from userbot import CMD_HELP
-from userbot.events import register, errors_handler
-from userbot.utils import admin_cmd
+from hunterx import ALIVE_NAME
+from hunterx import CMD_HELP
+from hunterx.events import register, errors_handler
+from hunterx.utils import admin_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 #@register(outgoing=True, pattern=r"^.lock ?(.*)")
