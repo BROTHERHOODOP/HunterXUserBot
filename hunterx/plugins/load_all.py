@@ -4,7 +4,7 @@
 from telethon.tl.types import InputMessagesFilterDocument
 from ..utils import remove_plugin, load_module, admin_cmd
 from pathlib import Path
-import userbot.utils
+import hunterxutils
 import os
 
 @borg.on(admin_cmd(pattern=r"installall$"))
