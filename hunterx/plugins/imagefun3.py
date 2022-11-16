@@ -1,21 +1,21 @@
-   # originally made by @danish_00 
-   # Team dc
-   # For cobra
+   # originally made by @Rishi_krd 
+   # Team HX
+   # For HuntetXuserbot
 
 from PIL import Image
 import numpy as np
 import os, shutil, sys ,cv2, asyncio, scipy, random
 from telegraph import upload_file
 from telethon.tl.types import MessageMediaPhoto
-from userbot.utils import admin_cmd
-from userbot import bot , CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import bot , CMD_HELP
 
 path = "./dcobra/"
 if not os.path.isdir(path):
     os.makedirs(path)
 
 
-# Originally Created by @danish_00 
+# Originally Created by @Rishi_krd
 # All Basics opencv just , the .rtoon was little challenging
 
 
