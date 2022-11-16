@@ -1,4 +1,4 @@
-# gali plugin By DARK COBRA 
+# gali plugin By TEAM HUNTERX 
 """Emoji
 Available Commands:
 .gulli"""
@@ -7,7 +7,7 @@ from telethon import events
 
 import asyncio
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd("gulli"))
 async def _(event):
@@ -36,6 +36,7 @@ async def _(event):
             "Yeahhhhhh",
             "AUR KITNA BOLU BEY MANN BHAR GAYA MERA🤣",
             "Ab nikal ja jaake chkko k saath hilaa",
+            "Me Khata Hu Burger Teri Maa Chu*ye Ghar Ghar",
             "😂😂😂🤣🤣"
         ]
 
