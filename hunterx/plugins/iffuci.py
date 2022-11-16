@@ -1,12 +1,12 @@
 """iffuci.tk pastebin site
-Code written by @loxxi {iffuci}
+Code written by @Rishi_krd {SPYDY}
 Syntax: .iffuci"""
 from telethon import events
 import asyncio
 from datetime import datetime
 import os
 import requests
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 def progress(current, total):
