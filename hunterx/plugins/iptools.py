@@ -1,5 +1,5 @@
-# Advanced Web Tools Plugin Made by @Hackintush..
-# All Credits Belong to CɪᴘʜᴇʀX..
+# Advanced Web Tools Plugin Made by @Rishi_krd..
+# All Credits Belong to HUNTERX USERBOT..
 # Edited and ported with accordance to the utility by @hellboi_atul...Itz team DC
 # Use on your own risk..we aren't responsible for any illegal activities done by you..this module is for educational purposes only..neither the team or the maker of the plugin is responsible..
 # If you remove these 5 lines you are the geyest gey in the whole world..
@@ -8,10 +8,10 @@ import urllib.request
 import requests 
 from bs4 import BeautifulSoup
 
-from userbot.utils import admin_cmd 
-from userbot.utils import edit_or_reply
-from userbot import CMD_HELP
-from userbot import bot 
+from hunterx.utils import admin_cmd 
+from hunterx.utils import edit_or_reply
+from hunterx import CMD_HELP
+from hunterx import bot 
 
 
 @bot.on(admin_cmd(pattern="nmap (.*)"))
