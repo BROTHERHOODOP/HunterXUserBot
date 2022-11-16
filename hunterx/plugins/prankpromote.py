@@ -7,7 +7,7 @@ import asyncio
 from datetime import datetime
 from telethon.tl.functions.channels import EditAdminRequest
 from telethon.tl.types import ChatAdminRights
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 """
