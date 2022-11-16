@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from google_images_download import google_images_download
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 from search_engine_parser import GoogleSearch
         
 
