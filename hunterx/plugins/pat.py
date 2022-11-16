@@ -1,7 +1,7 @@
 ﻿"""
 HeadPat Module for Userbot (http://headp.at)
 cmd:- .pat username or reply to msg
-By:- git: jaskaranSM tg: @Zero_cool7870
+By:- git: jaskaranSM tg: @Rishi_krd
 
 
 
@@ -11,7 +11,7 @@ By:- git: jaskaranSM tg: @Zero_cool7870
 
 
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 from random import choice
 from urllib import parse
 from os import remove
