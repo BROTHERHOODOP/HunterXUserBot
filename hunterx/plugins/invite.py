@@ -2,7 +2,7 @@
 Syntax: .invite <User(s)>"""
 
 from telethon import functions
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="invite ?(.*)"))
