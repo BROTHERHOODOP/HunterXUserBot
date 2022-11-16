@@ -2,7 +2,7 @@
 #
 # lol jee lo apni zindagi
 #
-# HeHe created by @danish_00
+# HeHe created by @Rishi_krd
 #
 #😂😂😂
 
@@ -10,13 +10,13 @@ from telethon import events
 
 import asyncio
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 
 @borg.on(admin_cmd(pattern="porn"))
 
-async def _(event):# @danish_00 original
+async def _(event):# HUNTERX original
 
     if event.fwd_from:
 
@@ -28,7 +28,7 @@ async def _(event):# @danish_00 original
 
     await event.edit("`Connecting...`")
 
-    animation_chars = [# @danish_00 original
+    animation_chars = [# HUNTERX original
 
             "P_",
 
@@ -44,7 +44,7 @@ async def _(event):# @danish_00 original
             
            "PORNHUB_", 
            
-           "[PORNHUB](www.porn93.cc)👄👅💦💦"# @danish_00 original
+           "[PORNHUB](www.porn93.cc)👄👅💦💦"# HUNTERX original
 
         ]
 
@@ -59,7 +59,7 @@ async def _(event):# @danish_00 original
 
 async def _(event):
 
-    if event.fwd_from: # @danish_00 original
+    if event.fwd_from: # HUNTERX original
 
         return
 
