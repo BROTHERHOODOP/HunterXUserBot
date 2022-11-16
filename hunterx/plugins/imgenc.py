@@ -9,7 +9,7 @@ from hunterx.utils import admin_cmd
 from hunterx import CMD_HELP, ALIVE_NAME
 from hunterx import bot
 from hunterx import bot as borg
-DARKCOBRA = os.environ.get("DEEP_AI", "quickstart-QUdJIGlzIGNvbWluZy4uLi4K")
+HUNTERXUSERBOT = os.environ.get("DEEP_AI", "quickstart-QUdJIGlzIGNvbWluZy4uLi4K")
 
 KANG_KAREGA_MC = str(ALIVE_NAME) if ALIVE_NAME else "nikal Mc"
 @bot.on(admin_cmd(pattern="enc ?(.*)", outgoing=True))#hehe
