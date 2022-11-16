@@ -1,8 +1,8 @@
 
 
 
-from userbot import *
-from userbot.utils import admin_cmd
+from hunterx import *
+from hunterx.utils import admin_cmd
 from telethon.tl.types import Channel, Chat, User
 from telethon.tl import functions, types
 from telethon.tl.functions.messages import  CheckChatInviteRequest, GetFullChatRequest
