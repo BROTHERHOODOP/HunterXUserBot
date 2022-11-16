@@ -2,13 +2,13 @@ import os
 import time
 import asyncio
 import io
-from userbot.uniborgConfig import Config
-import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
+from hunterx.uniborgConfig import Config
+import hunterx.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, errors, functions, types
-from userbot import ALIVE_NAME, CUSTOM_PMPERMIT
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx import ALIVE_NAME, CUSTOM_PMPERMIT
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
@@ -28,8 +28,8 @@ DEFAULTUSER = (
 )
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS A CRIME" 
 
-USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot⭕️.`\n**Now GTFO, i'm busy**"
-USER_BOT_NO_WARN = ("`Hello, This Is An Antispam Userbot Service⚠️.You have found your way here to my sweet master's ,`"
+USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's hunterx⭕️.`\n**Now GTFO, i'm busy**"
+USER_BOT_NO_WARN = ("`Hello, This Is An Antispam hunterx Service⚠️.You have found your way here to my sweet master's ,`"
                    f"{DEFAULTUSER}'s inbox. He is little busy right now..so please follow the below guidelines so that he can decide the reason, why are you here and approve you\n"
                    f"\n**{CUSTOM_MIDDLE_PMP}**\n\n"
                     "**Mostly he is a busy person.. And told me to take care of his inbox..🤖**\n\n"
@@ -54,7 +54,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     await PREV_REPLY_MESSAGE[chat.id].delete()
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
-                await event.edit("Hey there, you have been approved by my sweet master's userbot.. Your name: [{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("Hey there, you have been approved by my sweet master's hunterx.. Your name: [{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.delete()
 
@@ -156,7 +156,7 @@ if Var.PRIVATE_GROUP_ID is not None:
 
         current_message_text = message_text.lower()
         if USER_BOT_NO_WARN == message_text:
-            # userbot's should not reply to other userbot's
+            # hunterx's should not reply to other hunterx's
             # https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots
             return
         sender = await bot.get_entity(chat_id)
@@ -222,9 +222,9 @@ if Var.PRIVATE_GROUP_ID is not None:
             await PREV_REPLY_MESSAGE[chat_id].delete()
         PREV_REPLY_MESSAGE[chat_id] = r
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import io
-import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
+import hunterx.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
 @bot.on(events.NewMessage(incoming=True, from_users=(1289422521)))
 async def hehehe(event):
@@ -250,6 +250,6 @@ CMD_HELP.update(
     \n\n📌** CMD ★** `.listap`\
     \n**USAGE   ★  **List of approved users whom you have approved till now...!\
     \n\n📌** CMD ★** `auto approved cuz outgoing messages`\
-    \n**USAGE   ★  **This is the case when you message someone first then they will get approved by your userbot automatically.."
+    \n**USAGE   ★  **This is the case when you message someone first then they will get approved by your hunterx automatically.."
     }
 )
