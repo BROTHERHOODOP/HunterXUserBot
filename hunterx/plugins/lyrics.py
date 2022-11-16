@@ -1,15 +1,15 @@
 
 
-    # original by @danish_00
-    # with Noob @programmingerror
-    # Team Cobra
+    # original by @Rishi_krd
+    # with Noob HUNTERX
+    # Team HX
     # Keep Credits
     
 
 from lyrics_extractor import SongLyrics as sl
 import random, re
-from userbot import bot, CMD_HELP
-from userbot.utils import admin_cmd
+from hunterx import bot, CMD_HELP
+from hunterx.utils import admin_cmd
 
 
 @bot.on(admin_cmd(pattern=r"lyrics ?(.*)"))
@@ -20,12 +20,12 @@ async def original(event):
     noob = event.pattern_match.group(1)
     await event.edit('```Getting lyrics..```')
     dc=(random.randrange(1,3))
-    if dc==1:
-       danish = "AIzaSyAyDBsY3WRtB5YPC6aB_w8JAy6ZdXNc6FU"
-    if dc==2: 
-       danish = "AIzaSyBF0zxLlYlPMp9xwMQqVKCQRq8DgdrLXsg"
-    if dc==3:
-       danish = "AIzaSyDdOKnwnPwVIQ_lbH5sYE4FoXjAKIQV0DQ"
+    if hx==1:
+       hunter = "AIzaSyAyDBsY3WRtB5YPC6aB_w8JAy6ZdXNc6FU"
+    if hx==2: 
+       hunter = "AIzaSyBF0zxLlYlPMp9xwMQqVKCQRq8DgdrLXsg"
+    if hx==3:
+       hunterx = "AIzaSyDdOKnwnPwVIQ_lbH5sYE4FoXjAKIQV0DQ"
     extract_lyrics = sl( f"{danish}", "15b9fb6193efd5d90")
     sh1vm = extract_lyrics.get_lyrics(f"{noob}")
     a7ul = sh1vm['lyrics'] 
