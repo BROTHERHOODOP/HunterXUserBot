@@ -1,5 +1,5 @@
 """No Logic Pligon for @PepeBot
-\nCoding by Legend @NeoMatrix90
+\nCoding by Legend @Rishi_krd
 \nType .logic to see many logical fact
 """
 from telethon import events
@@ -7,7 +7,7 @@ import asyncio
 import random
 import re
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern=f"logic$", outgoing=True))
