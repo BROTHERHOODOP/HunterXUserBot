@@ -1,10 +1,10 @@
 '''
 Fuck
-Fixed for userbot.. By @hellboi_atul.
+Fixed for userbot.. By @Rishi_krd.
 '''
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 from telethon import events
 #@command(outgoing=True, pattern=r"^.gmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"gmute ?(\d+)?"))
