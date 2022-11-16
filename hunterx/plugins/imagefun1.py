@@ -2,11 +2,11 @@
 
    
    # import cv2
-   # By @danish_00
-   # with @shivam_patel
-   # @THE_B_LACK_HAT
-   # Team Dc
-   # For Cobra
+   # By @Rishi_krd
+   # with @export_gabbar
+   # HunterX
+   # Team HX
+   # For Hunterxuserbot
 
 import cv2
 import numpy as np
@@ -16,7 +16,7 @@ import pygments, os, asyncio, shutil, scapy, sys, requests, re, subprocess, urll
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
 from userbot import bot, CMD_HELP
-from userbot.utils import admin_cmd, sudo_cmd
+from hunterx.utils import admin_cmd, sudo_cmd
 from telegraph import upload_file
 from telethon import events
 from telethon.tl.types import MessageMediaPhoto
