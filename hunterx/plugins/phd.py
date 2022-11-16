@@ -1,5 +1,5 @@
 """
-Pornhub downloader by @anubisxx
+Pornhub downloader by @Rishi_krd
 Syntax: .phd link
 """
 
@@ -25,7 +25,7 @@ from telethon.tl.functions.account import UpdateNotifySettingsRequest
 
 from telethon.tl.functions.messages import ImportChatInviteRequest
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd("phd ?(.*)"))
 
