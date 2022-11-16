@@ -3,10 +3,10 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Userbot plugin_info command """
+""" hunterx plugin_info command """
 
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from hunterx import CMD_HELP
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd(outgoing=True, pattern="plinfo(?: |$)(.*)"))
 async def info(event):
