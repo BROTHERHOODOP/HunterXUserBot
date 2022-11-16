@@ -1,9 +1,9 @@
 
 
-     # By @danish_00
+     # By @Rishi_krd
      # OpenCV Basics
-     # For Dark Cobra
-     # Team Dc
+     # For HunteX
+     # Team HX
 
 import cv2
 import numpy as np
@@ -11,8 +11,8 @@ from PIL import Image, ImageDraw
 import pygments, os, asyncio, shutil, scapy, sys, requests, re, subprocess
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from userbot import bot, CMD_HELP
-from userbot.utils import admin_cmd, sudo_cmd
+from hubterx import bot, CMD_HELP
+from hunterx.utils import admin_cmd, sudo_cmd
 from telegraph import upload_file
 from telethon import events
 from telethon.tl.types import MessageMediaPhoto
