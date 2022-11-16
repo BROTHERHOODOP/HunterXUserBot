@@ -8,8 +8,8 @@ from telethon import events
 from datetime import datetime
 import io
 import speedtest
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 @borg.on(admin_cmd(pattern="test ?(.*)"))
 async def _(event):
