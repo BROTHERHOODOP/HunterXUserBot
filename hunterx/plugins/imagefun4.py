@@ -1,18 +1,18 @@
  
     
 
-     # @THE_B_LACK_HAT with @shivam_patel
-     # Modified with OpenCV by @danish_00
-     # Team Cobra
-     # For Dark Cobra
+     # @Rishi_krd with @export_gabbar
+     # Modified with OpenCV by @export_gabbar
+     # Team HunterX
+     # For HunterX
      # Keep Credits
 
 import cv2
 from PIL import Image
 import sys
 import os
-from userbot.utils import admin_cmd
-from userbot import bot, CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import bot, CMD_HELP
 
      # Now Gifs nd Stickers also Support
      # OpenCV Basics
