@@ -1,4 +1,4 @@
-# (c) Shrimadhav U K
+# (c) SPYDY-RKT
 #
 # This file is part of @UniBorg
 #
@@ -12,14 +12,14 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 #
-# Modified to suit needs, by @its_xditya
+# Modified to suit needs, by @Rishi_krd
 
 
 from telethon import custom, events
 from telethon.tl.types import Channel
 from telethon.utils import get_display_name
 
-from userbot.uniborgConfig import Config
+from hunterx.uniborgConfig import Config
      
 NEEDLOG = int(Config.TAG_LOG) if Config.TAG_LOG else (Var.TG_BOT_USER_NAME_BF_HER)
 if Config.TAG_LOG:
