@@ -1,14 +1,14 @@
-# Made for DARK COBRA
-# Thanks to @THE_B_LACK_HAT
-# Fixed and Edited by @danish_00
+# Made for HUNTERX USERBOT
+# Thanks to @Rishi_krd
+# Fixed and Edited by @exoort_gabbar
 # Kang with credits else gay..
 
 from telethon.tl.types import MessageMediaPhoto
 import os, urllib, requests, re, asyncio
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP, ALIVE_NAME
-from userbot import bot
-from userbot import bot as borg
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP, ALIVE_NAME
+from hunterx import bot
+from hunterx import bot as borg
 DARKCOBRA = os.environ.get("DEEP_AI", "quickstart-QUdJIGlzIGNvbWluZy4uLi4K")
 
 KANG_KAREGA_MC = str(ALIVE_NAME) if ALIVE_NAME else "nikal Mc"
