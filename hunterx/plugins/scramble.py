@@ -1,11 +1,11 @@
 """
- thx to @r4v4n4
+ thx to @Rishi_krd
 """
 
 import random
 import re
 
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="scramble(\s+[\S\s]+|$)"))
