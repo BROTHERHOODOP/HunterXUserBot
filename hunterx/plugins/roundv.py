@@ -1,5 +1,5 @@
-# COPYRIGHT © DARK COBRA
-# Plugin made by @hellboi_atul ...
+# COPYRIGHT © HUNTERX USERBOT
+# Plugin made by @Rishi_krd ...
 # You may use this with permission..and 
 # Please don't remove the credits.. 
 # else gay...
@@ -10,8 +10,8 @@ import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import CMD_HELP
 
 #===================================================================================
 
