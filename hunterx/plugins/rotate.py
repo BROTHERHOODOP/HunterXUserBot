@@ -1,13 +1,13 @@
 import os
-#MADE BY SHIVAM DONT KANG
+#MADE BY SpYdY
 import cv2
 from userbot import CMD_HELP
-#MADE BY SHIVAM DONT KANG
-#MADE BY SHIVAM DONT KANG
+#MADE BY SpYdY
+#MADE BY SpYdY
 from telethon.tl.types import MessageMediaPhoto
-from userbot.utils import admin_cmd
-from userbot import bot 
-from userbot import bot as borg
+from hunterx.utils import admin_cmd
+from hunterx import bot 
+from hunterx import bot as borg
 import os , shutil
 
 from PIL import Image
