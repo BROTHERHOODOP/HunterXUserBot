@@ -5,7 +5,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 
 @borg.on(admin_cmd("sdd ?(.*)"))
 async def _(event):
