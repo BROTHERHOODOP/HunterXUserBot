@@ -1,13 +1,13 @@
 # -0,0 +1,96 @@
-# Made For DARK COBRA and TELEBOT...
-# Made by team cobra with @xditya
+# Made For HUNTERX USERBOT and TELEBOT...
+# Made by SpYdY with @export_gabbar
 # Retrieves the name history and the username history of the replied user..
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot.utils import admin_cmd
-from userbot import bot, CMD_HELP
+from hunterx.utils import admin_cmd
+from hunterx import bot, CMD_HELP
 
 @borg.on(admin_cmd(pattern="sg ?(.*)"))
 async def _(event):
