@@ -1,12 +1,12 @@
 import PIL
-from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from huntex.utils import admin_cmd
+from hunterd import CMD_HELP
 import pygments, os, asyncio
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from userbot.utils import admin_cmd
-from userbot import bot
-from userbot import bot as borg
+from hunterx.utils import admin_cmd
+from hunterx import bot
+from hunterx import bot as borg
 @bot.on(admin_cmd(pattern="size ?(.*)", outgoing=True))
 # DONOT KANG by Sh1vam
 #Team DC
