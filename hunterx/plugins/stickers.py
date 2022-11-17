@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Userbot module for kanging stickers or making new ones. Thanks @rupansh"""
+""" HUNTERX Userbot module for kanging stickers or making new ones. Thanks @rupansh"""
 
 import io
 import math
@@ -12,8 +12,8 @@ from os import remove
 from PIL import Image
 import random
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
-from userbot import bot, CMD_HELP
-from userbot.utils import register
+from hunterx import bot, CMD_HELP
+from hunterx.utils import register
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
