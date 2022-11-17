@@ -3,8 +3,8 @@ import os
 import time
 from datetime import datetime
 
-from userbot.utils import admin_cmd, progress
-from userbot import CMD_HELP
+from hunterx.utils import admin_cmd, progress
+from hunterx import CMD_HELP
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "thumb_image.jpg"
 
