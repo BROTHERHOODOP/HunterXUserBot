@@ -1,5 +1,5 @@
-# plugin made by @hellboi_atul bug fixes by @Mrconfused 
-# Copyright (C) DARK COBRA 2020.
+# plugin made by @Rishi_krd bug fixes by @export_gabbar 
+# Copyright (C) HUNTERX USERBOT 2020.
 # if you change these lines you are gay...bc fuck off!
 # leechers stay away😑...if you use this code without credit...u gay bitch fuck off...!
 
@@ -7,9 +7,9 @@
 
 import re
 import random
-from userbot import bot, CMD_HELP
+from hunterx import bot, CMD_HELP
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from userbot.utils import admin_cmd
+from hunterx.utils import admin_cmd
 import asyncio
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.errors.rpcerrorlist import UserAlreadyParticipantError
