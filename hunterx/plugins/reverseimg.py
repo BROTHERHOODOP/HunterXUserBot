@@ -1,11 +1,11 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 #
-# Thanks to @kandnub, for this awesome module !!
+# Thanks to @Rishi_krd, for this awesome module !!
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Userbot module for reverse searching stickers and images on Google """
+""" HUNTERX Userbot module for reverse searching stickers and images on Google """
 
 import io
 import os
@@ -17,8 +17,8 @@ import re
 from telethon.tl.types import MessageMediaPhoto
 from PIL import Image
 
-from userbot import bot, CMD_HELP
-from userbot.utils import register, errors_handler
+from hunterx import bot, CMD_HELP
+from hunterx.utils import register, errors_handler
 
 opener = urllib.request.build_opener()
 useragent = 'Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36'
